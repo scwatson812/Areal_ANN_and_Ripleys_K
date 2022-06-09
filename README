@@ -1,0 +1,5 @@
+The file 'ANN.R' performs hypothesis testing using the areal data implementation of the Average Nearest Neighbor hypothesis testing procedure described in 'Cluster Detection Capabilities of the Average Nearest Neighbor Ratio and Ripley’s K Function on Areal Data: An Empirical Assessment' by Vidanapathirana, Wang, McLain and Self.
+The file 'RK.R' performs hypothesis testing using the areal data implementation of the Ripley's K function hypothesis testing procedure described in 'Cluster Detection Capabilities of the Average Nearest Neighbor Ratio and Ripley’s K Function on Areal Data: An Empirical Assessment' by Vidanapathirana, Wang, McLain and Self.
+
+Both files require a shapefile of the areal units which compose the study area.
+This shapefile must contain a variable called "Observations" which is a binary (0/1) indicator of whether each areal unit was an observation location.
